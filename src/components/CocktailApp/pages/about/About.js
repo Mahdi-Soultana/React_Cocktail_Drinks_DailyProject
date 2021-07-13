@@ -1,6 +1,6 @@
 import "./about.css";
 import img from "./img/mahdi-soultana.png";
-const AboutMe = () => {
+const About = () => {
   return (
     <div className="about_contianer">
       <div>
@@ -42,4 +42,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;
