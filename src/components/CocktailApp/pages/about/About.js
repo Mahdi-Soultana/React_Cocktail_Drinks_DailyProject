@@ -18,7 +18,7 @@ const About = () => {
         <p>
           Hey Helloooooo 😆 <br /> I am Mahdi Soultana Form Morroco I web
           developer by JavaScript HTML CSS I Love my Path Javascrpit Curve
-          Learning Ilove to desciver and work with the latest technologie Like{" "}
+          Learning Ilove to discover and work with the latest technologie Like{" "}
           <b>ReactJS</b> , <b>NextJs</b>, <b>Gatsby </b>
           <b> GraphQL</b>, <b> MongoDB </b>(Mongoose) <b>Socket</b>,{" "}
           <b>FireBase</b> , <b>NodeJS</b>,<b>contentFull</b>, <b>wordpress</b>,
