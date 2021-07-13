@@ -34,3 +34,10 @@
 .info li {
   margin: 0.5rem 1rem;
 }
+@media (max-width:900px){
+.SinglecocktailContainer {
+  
+  grid-template-columns: 1fr;
+}
+
+}
