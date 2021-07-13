@@ -1,0 +1,56 @@
+.container_form {
+  padding: 3vw;
+  margin-top: 2vw;
+}
+.formControl {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  grid-template-rows: 40px;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: var(--cl-w);
+  padding: 0 2rem;
+  font-size: 1.9rem;
+  font-family: inherit;
+  width: 100%;
+  font-weight: 300;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon i {
+  font-size: 1.7rem;
+}
+.btn-c {
+  width: 100%;
+  padding: 2vw 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1.3rem;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: 400;
+  border: none;
+  background-color: var(--cl-w);
+  outline: none;
+  border-radius: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container_form .btn i {
+  padding-left: 1rem;
+}
+.btn-w100 {
+  width: 70%;
+}

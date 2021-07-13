@@ -1,0 +1,53 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cl-p: rgb(162, 58, 189);
+  --cl-sc: rgb(241, 41, 248);
+  --cl-light: lavenderblush;
+  --cl-w: rgb(255, 255, 255);
+  --cl-lBlack: #333;
+  --cl-black: rgb(20, 20, 20);
+  --transition: 0.25s all linear;
+}
+html {
+  font-size: 90%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+  color: var(--cl-black);
+}
+p {
+  color: var(--cl-black);
+}
+body {
+  color: var(--cl-w);
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(120deg, var(--cl-p), var(--cl-sc)) no-repeat
+    center center;
+}
+button {
+  transition: var(--transition);
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  transition: 0s all;
+  opacity: 1;
+}
