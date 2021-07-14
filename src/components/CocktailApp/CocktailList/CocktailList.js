@@ -11,7 +11,7 @@ const CocktailList = () => {
   const { data, loading, error } = useFetch(
     "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" + searchKey
   );
-  console.log(searchKey);
+
   return (
     <>
       <Form setSearch={setSearch} />

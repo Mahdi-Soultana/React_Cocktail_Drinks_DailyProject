@@ -1,6 +1,6 @@
 import "./about.css";
 import img from "./img/mahdi-soultana.png";
-const About = () => {
+const AboutMe = () => {
   return (
     <div className="about_contianer">
       <div>
@@ -24,17 +24,17 @@ const About = () => {
           <b>FireBase</b> , <b>NodeJS</b>,<b>contentFull</b>, <b>wordpress</b>,
           <b>stripe</b>.
           <br />{" "}
-          <p className="wich">
-            {" "}
-            I hope To Find and meet all kind teams developpers and clients for
-            work and build good solid realtionship togther forward to make earth
-            somewhere good for living !
-          </p>
-          <p className="end">
-            {" "}
-            Peace🙏 <br />
-            Thank you for All 🥳
-          </p>
+        </p>
+        <p className="wich">
+          {" "}
+          I hope To Find and meet all kind teams developpers and clients for
+          work and build good solid realtionship togther forward to make earth
+          somewhere good for living !
+        </p>
+        <p className="end">
+          {" "}
+          Peace🙏 <br />
+          Thank you for All 🥳
         </p>
         <h2 className="findme">You can Reach me on My Social Netwok 👇 !</h2>
       </div>
@@ -42,4 +42,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutMe;
