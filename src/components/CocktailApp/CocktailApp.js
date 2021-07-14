@@ -1,6 +1,6 @@
 import Layout from "./Layout/Layout.js";
-import CocktailList from "../CocktailApp/CocktailList/CocktailList";
-import SingleCocktail from "../CocktailApp/pages/singleCocktail/singleCocktail";
+import CocktailList from "./CocktailList/CocktailList";
+import SingleCocktail from "./pages/singleCocktail/singleCocktail";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/about/About.js";
 import Error from "./pages/Error/Error.js";
