@@ -1,13 +1,16 @@
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 
+import "./Layout.css";
 const Layout = props => {
   return (
-    <div>
+    <>
       <Nav />
-      <main>{props.children}</main>
+      <div className="container">
+        <main>{props.children}</main>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

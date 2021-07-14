@@ -1,19 +1,19 @@
-footer,
-footer ul,
-footer div {
+nav,
+nav ul,
+nav div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-footer div {
-  margin-left: 5vw;
+h1 a {
+  padding: 0;
+  margin: 0;
 }
-footer,
-feComponentTransfer {
+nav {
   padding: 1rem;
 }
-footer ul li a,
+nav ul li a,
 div a {
   padding: 1vw;
   margin: 0 1vw;
@@ -21,11 +21,11 @@ div a {
 div a {
   margin-left: 0.4rem;
 }
-footer {
-  background-color: var(--cl-light);
+nav {
+  background-color: var(--cl-lBlack);
 }
 a:hover {
-  background-color: var(--cl-p);
-  color: var(--cl-w);
+  background-color: var(--cl-w);
+  color: var(--cl-black);
   font-weight: bold;
 }

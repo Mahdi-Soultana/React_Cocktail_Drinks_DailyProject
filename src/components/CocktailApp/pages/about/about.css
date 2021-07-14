@@ -1,0 +1,85 @@
+.about_contianer {
+  padding: 4vw;
+}
+.about_contianer h4 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.about_contianer .imgContainerAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.about_contianer .hi {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.about_contianer h3 {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 2rem;
+  color: #333;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.about_contianer p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.about_contianer p b {
+  color: tomato;
+  position: relative;
+}
+.about_contianer p b:nth-child(even)::after {
+  content: "⭐️";
+  position: relative;
+  top: -2px;
+  font-size: 1rem;
+  right: 0;
+  color: tomato;
+}
+.about_contianer p b:nth-child(odd)::after {
+  content: "🔥";
+  position: relative;
+  top: -2px;
+  font-size: 1rem;
+  right: 0;
+  color: tomato;
+}
+.wich {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.end {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.findme {
+  color: #333;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  text-align: left;
+}
+.imgContainerAbout img {
+  width: 90%;
+}
+@media screen and (min-width: 900px) {
+  .about_contianer {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: minmax(200px, 300px) 1fr;
+  }
+}

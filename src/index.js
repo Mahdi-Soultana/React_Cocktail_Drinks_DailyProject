@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom";
 import "./global.css";
-import TodoApp from "./components/TodoApp";
+// import TodoApp from "./components/TodoApp";
+import CocktailApp from "./components/CocktailApp";
 
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(<CocktailApp />, document.getElementById("root"));

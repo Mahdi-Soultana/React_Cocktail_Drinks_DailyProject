@@ -1,0 +1,9 @@
+.cocktailContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 270px));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
